@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CE80721197751F5000D2BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80720197751F5000D2BE0 /* Foundation.framework */; };
+		4CE80723197751F5000D2BE0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80722197751F5000D2BE0 /* CoreGraphics.framework */; };
+		4CE80725197751F5000D2BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80724197751F5000D2BE0 /* UIKit.framework */; };
+		4CE8072B197751F5000D2BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80729197751F5000D2BE0 /* InfoPlist.strings */; };
+		4CE8072D197751F5000D2BE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8072C197751F5000D2BE0 /* main.m */; };
+		4CE80731197751F5000D2BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE80730197751F5000D2BE0 /* AppDelegate.m */; };
+		4CE80734197751F5000D2BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80732197751F5000D2BE0 /* Main.storyboard */; };
+		4CE80737197751F5000D2BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE80736197751F5000D2BE0 /* ViewController.m */; };
+		4CE80739197751F5000D2BE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80738197751F5000D2BE0 /* Images.xcassets */; };
+		4CE80740197751F5000D2BE0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE8073F197751F5000D2BE0 /* XCTest.framework */; };
+		4CE80741197751F5000D2BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80720197751F5000D2BE0 /* Foundation.framework */; };
+		4CE80742197751F5000D2BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80724197751F5000D2BE0 /* UIKit.framework */; };
+		4CE8074A197751F5000D2BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80748197751F5000D2BE0 /* InfoPlist.strings */; };
+		4CE8074C197751F5000D2BE0 /* Image_ManipulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CE80743197751F5000D2BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CE80715197751F5000D2BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE8071C197751F5000D2BE0;
+			remoteInfo = "Image Manipulator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CE8071D197751F5000D2BE0 /* Image Manipulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Manipulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE80720197751F5000D2BE0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CE80722197751F5000D2BE0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CE80724197751F5000D2BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CE80728197751F5000D2BE0 /* Image Manipulator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image Manipulator-Info.plist"; sourceTree = "<group>"; };
+		4CE8072A197751F5000D2BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CE8072C197751F5000D2BE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CE8072E197751F5000D2BE0 /* Image Manipulator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Image Manipulator-Prefix.pch"; sourceTree = "<group>"; };
+		4CE8072F197751F5000D2BE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4CE80730197751F5000D2BE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4CE80733197751F5000D2BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CE80735197751F5000D2BE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4CE80736197751F5000D2BE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4CE80738197751F5000D2BE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4CE8073E197751F5000D2BE0 /* Image ManipulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image ManipulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE8073F197751F5000D2BE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4CE80747197751F5000D2BE0 /* Image ManipulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image ManipulatorTests-Info.plist"; sourceTree = "<group>"; };
+		4CE80749197751F5000D2BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_ManipulatorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE8071A197751F5000D2BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE80723197751F5000D2BE0 /* CoreGraphics.framework in Frameworks */,
+				4CE80725197751F5000D2BE0 /* UIKit.framework in Frameworks */,
+				4CE80721197751F5000D2BE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE8073B197751F5000D2BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE80740197751F5000D2BE0 /* XCTest.framework in Frameworks */,
+				4CE80742197751F5000D2BE0 /* UIKit.framework in Frameworks */,
+				4CE80741197751F5000D2BE0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CE80714197751F5000D2BE0 = {
+			isa = PBXGroup;
+			children = (
+				4CE80726197751F5000D2BE0 /* Image Manipulator */,
+				4CE80745197751F5000D2BE0 /* Image ManipulatorTests */,
+				4CE8071F197751F5000D2BE0 /* Frameworks */,
+				4CE8071E197751F5000D2BE0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE8071E197751F5000D2BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE8071D197751F5000D2BE0 /* Image Manipulator.app */,
+				4CE8073E197751F5000D2BE0 /* Image ManipulatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE8071F197751F5000D2BE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CE80720197751F5000D2BE0 /* Foundation.framework */,
+				4CE80722197751F5000D2BE0 /* CoreGraphics.framework */,
+				4CE80724197751F5000D2BE0 /* UIKit.framework */,
+				4CE8073F197751F5000D2BE0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE80726197751F5000D2BE0 /* Image Manipulator */ = {
+			isa = PBXGroup;
+			children = (
+				4CE8072F197751F5000D2BE0 /* AppDelegate.h */,
+				4CE80730197751F5000D2BE0 /* AppDelegate.m */,
+				4CE80732197751F5000D2BE0 /* Main.storyboard */,
+				4CE80735197751F5000D2BE0 /* ViewController.h */,
+				4CE80736197751F5000D2BE0 /* ViewController.m */,
+				4CE80738197751F5000D2BE0 /* Images.xcassets */,
+				4CE80727197751F5000D2BE0 /* Supporting Files */,
+			);
+			path = "Image Manipulator";
+			sourceTree = "<group>";
+		};
+		4CE80727197751F5000D2BE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE80728197751F5000D2BE0 /* Image Manipulator-Info.plist */,
+				4CE80729197751F5000D2BE0 /* InfoPlist.strings */,
+				4CE8072C197751F5000D2BE0 /* main.m */,
+				4CE8072E197751F5000D2BE0 /* Image Manipulator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CE80745197751F5000D2BE0 /* Image ManipulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */,
+				4CE80746197751F5000D2BE0 /* Supporting Files */,
+			);
+			path = "Image ManipulatorTests";
+			sourceTree = "<group>";
+		};
+		4CE80746197751F5000D2BE0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4CE80747197751F5000D2BE0 /* Image ManipulatorTests-Info.plist */,
+				4CE80748197751F5000D2BE0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE8071C197751F5000D2BE0 /* Image Manipulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE8074F197751F5000D2BE0 /* Build configuration list for PBXNativeTarget "Image Manipulator" */;
+			buildPhases = (
+				4CE80719197751F5000D2BE0 /* Sources */,
+				4CE8071A197751F5000D2BE0 /* Frameworks */,
+				4CE8071B197751F5000D2BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Image Manipulator";
+			productName = "Image Manipulator";
+			productReference = 4CE8071D197751F5000D2BE0 /* Image Manipulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CE8073D197751F5000D2BE0 /* Image ManipulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE80752197751F5000D2BE0 /* Build configuration list for PBXNativeTarget "Image ManipulatorTests" */;
+			buildPhases = (
+				4CE8073A197751F5000D2BE0 /* Sources */,
+				4CE8073B197751F5000D2BE0 /* Frameworks */,
+				4CE8073C197751F5000D2BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CE80744197751F5000D2BE0 /* PBXTargetDependency */,
+			);
+			name = "Image ManipulatorTests";
+			productName = "Image ManipulatorTests";
+			productReference = 4CE8073E197751F5000D2BE0 /* Image ManipulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE80715197751F5000D2BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Hazems-Camaroons";
+				TargetAttributes = {
+					4CE8073D197751F5000D2BE0 = {
+						TestTargetID = 4CE8071C197751F5000D2BE0;
+					};
+				};
+			};
+			buildConfigurationList = 4CE80718197751F5000D2BE0 /* Build configuration list for PBXProject "Image Manipulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CE80714197751F5000D2BE0;
+			productRefGroup = 4CE8071E197751F5000D2BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE8071C197751F5000D2BE0 /* Image Manipulator */,
+				4CE8073D197751F5000D2BE0 /* Image ManipulatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE8071B197751F5000D2BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE80739197751F5000D2BE0 /* Images.xcassets in Resources */,
+				4CE8072B197751F5000D2BE0 /* InfoPlist.strings in Resources */,
+				4CE80734197751F5000D2BE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE8073C197751F5000D2BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE8074A197751F5000D2BE0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE80719197751F5000D2BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE80737197751F5000D2BE0 /* ViewController.m in Sources */,
+				4CE80731197751F5000D2BE0 /* AppDelegate.m in Sources */,
+				4CE8072D197751F5000D2BE0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CE8073A197751F5000D2BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE8074C197751F5000D2BE0 /* Image_ManipulatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CE80744197751F5000D2BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CE8071C197751F5000D2BE0 /* Image Manipulator */;
+			targetProxy = 4CE80743197751F5000D2BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CE80729197751F5000D2BE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE8072A197751F5000D2BE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4CE80732197751F5000D2BE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE80733197751F5000D2BE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CE80748197751F5000D2BE0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE80749197751F5000D2BE0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE8074D197751F5000D2BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CE8074E197751F5000D2BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE80750197751F5000D2BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Manipulator/Image Manipulator-Prefix.pch";
+				INFOPLIST_FILE = "Image Manipulator/Image Manipulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CE80751197751F5000D2BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Manipulator/Image Manipulator-Prefix.pch";
+				INFOPLIST_FILE = "Image Manipulator/Image Manipulator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4CE80753197751F5000D2BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Image Manipulator.app/Image Manipulator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Manipulator/Image Manipulator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Image ManipulatorTests/Image ManipulatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4CE80754197751F5000D2BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Image Manipulator.app/Image Manipulator";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Image Manipulator/Image Manipulator-Prefix.pch";
+				INFOPLIST_FILE = "Image ManipulatorTests/Image ManipulatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE80718197751F5000D2BE0 /* Build configuration list for PBXProject "Image Manipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE8074D197751F5000D2BE0 /* Debug */,
+				4CE8074E197751F5000D2BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE8074F197751F5000D2BE0 /* Build configuration list for PBXNativeTarget "Image Manipulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE80750197751F5000D2BE0 /* Debug */,
+				4CE80751197751F5000D2BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4CE80752197751F5000D2BE0 /* Build configuration list for PBXNativeTarget "Image ManipulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE80753197751F5000D2BE0 /* Debug */,
+				4CE80754197751F5000D2BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CE80715197751F5000D2BE0 /* Project object */;
+}
