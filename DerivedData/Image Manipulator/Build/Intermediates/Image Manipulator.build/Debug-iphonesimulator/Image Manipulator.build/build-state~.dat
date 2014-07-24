@@ -1,0 +1,358 @@
+TImage Manipulator
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch.pch Image\ Manipulator/Image\ Manipulator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/ViewController.o /Users/wisnieca/image-manipulation/Image\ Manipulator/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/AppDelegate.o /Users/wisnieca/image-manipulation/Image\ Manipulator/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/main.o /Users/wisnieca/image-manipulation/Image\ Manipulator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator normal i386
+cCompileStoryboard /Users/wisnieca/image-manipulation/Image\ Manipulator/Base.lproj/Main.storyboard
+cCopyStringsFile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/en.lproj/InfoPlist.strings Image\ Manipulator/en.lproj/InfoPlist.strings
+cCompileAssetCatalog /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app /Users/wisnieca/image-manipulation/Image\ Manipulator/Images.xcassets
+cProcessInfoPlistFile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Info.plist /Users/wisnieca/image-manipulation/Image\ Manipulator/Image\ Manipulator-Info.plist
+cGenerateDSYMFile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app.dSYM /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator
+cTouch /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000525642F10000000000000176
+t1381384945
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c0000000052B1B31A00000000000003B5
+t1387377434
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000052B1B32000000000000001A0
+t1387377440
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000052B1B3220000000000445870
+t1387377442
+s4479088
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000052B1B324000000000088C680
+t1387377444
+s8963712
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000052B1B3280000000001DB9910
+t1387377448
+s31168784
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c0000000052B1B36C0000000000000AC9
+t1387377516
+s2761
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/AppDelegate.o
+t1406153813
+s65236
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/Image Manipulator.LinkFileList
+c0000000053D034540000000000000233
+t1406153812
+s563
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/ViewController.o
+t1406153813
+s41016
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/main.o
+t1406153813
+s3660
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/assetcatalog_dependencies.txt
+t1406153814
+s492
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/assetcatalog_generated_info.plist
+t1406153814
+s525
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/PrecompiledHeaders/Image Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image Manipulator-Prefix.pch.pch
+t1406153813
+s108432
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app
+t1406153814
+s306
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app.dSYM
+t2
+s0
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Base.lproj/Main.storyboardc
+t1406153813
+s170
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Image Manipulator
+t1406153813
+s17144
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Info.plist
+t1406153814
+s1054
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/PkgInfo
+t1406153814
+s8
+
+N/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/en.lproj/InfoPlist.strings
+t1406153813
+s42
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/AppDelegate.m
+c0000000053D032DD00000000000007ED
+t1406153437
+s2029
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/Base.lproj/Main.storyboard
+c0000000053D034530000000000000EFA
+t1406153811
+s3834
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/Image Manipulator-Info.plist
+c0000000053D032DD00000000000004D0
+t1406153437
+s1232
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/Image Manipulator-Prefix.pch
+c0000000053D032DD0000000000000158
+t1406153437
+s344
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/Images.xcassets
+c0000000053D032DD0000000000000088
+t1406153437
+s136
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/ViewController.m
+c0000000053D032DD0000000000000203
+t1406153437
+s515
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/en.lproj/InfoPlist.strings
+c0000000053D032DD000000000000002D
+t1406153437
+s45
+
+N/Users/wisnieca/image-manipulation/Image Manipulator/main.m
+c0000000053D032DD0000000000000167
+t1406153437
+s359
+
+CBuild AST from /Users/wisnieca/image-manipulation/Image\ Manipulator/AppDelegate.m
+r0
+
+CBuild AST from /Users/wisnieca/image-manipulation/Image\ Manipulator/ViewController.m
+r0
+
+CBuild AST from /Users/wisnieca/image-manipulation/Image\ Manipulator/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2864fbd36b80b941^88bb02d46b80b941^---0#1#1#--18"Check dependencies36"77DF547A-912E-4B3E-AAD2-2E740517A212-
+
+CCompileAssetCatalog /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app /Users/wisnieca/image-manipulation/Image\ Manipulator/Images.xcassets
+s427846613.754831
+e427846614.928230
+r1
+xCompileAssetCatalog
+x/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app
+x/Users/wisnieca/image-manipulation/Image Manipulator/Images.xcassets
+o2014-07-23 18:16:54.553 IBCocoaTouchImageCatalogTool[4311:303] CFPreferences: user home directory at file:///Users/wisnieca/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
+o/* com.apple.actool.compilation-results */
+o/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/LaunchImage-700-568h@2x.png
+o/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Assets.car
+o/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection145"CompileAssetCatalog DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app Image\ Manipulator/Images.xcassets145"CompileAssetCatalog DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app Image\ Manipulator/Images.xcassets1a4ec1d56b80b941^12a1edd66b80b941^-746"2014-07-23 18:16:54.553 IBCocoaTouchImageCatalogTool[4311:303] CFPreferences: user home directory at file:///Users/wisnieca/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile./* com.apple.actool.compilation-results *//Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/LaunchImage-700-568h@2x.png/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Assets.car/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/Images.xcassets/0000000000000000^1330"CompileAssetCatalog DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app Image\ Manipulator/Images.xcassets    cd /Users/wisnieca/image-manipulation    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app /Users/wisnieca/image-manipulation/Image\ Manipulator/Images.xcassets36"D82B8F47-251B-4A3C-B93F-606C36C51675-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CCompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/AppDelegate.o /Users/wisnieca/image-manipulation/Image\ Manipulator/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427846613.206584
+e427846613.312102
+r1
+xCompileC
+xDerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/AppDelegate.o
+x/Users/wisnieca/image-manipulation/Image Manipulator/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/wisnieca/image-manipulation/Image Manipulator/AppDelegate.m
+d/Users/wisnieca/image-manipulation/Image Manipulator/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /Users/wisnieca/image-manipulation/Image Manipulator/AppDelegate.m266"CompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/AppDelegate.o Image\ Manipulator/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler86ff34d56b80b941^92e64fd56b80b941^---0#0#1#-19%DVTDocumentLocation2@84"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/AppDelegate.m0000000000000000^4292"CompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/AppDelegate.o Image\ Manipulator/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisnieca/image-manipulation    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/wisnieca/image-manipulation/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-generated-files.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-own-target-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-all-target-headers.hmap -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-project-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources/i386 -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources -F/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator -include /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch -MMD -MT dependencies -MF /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/AppDelegate.dia -c /Users/wisnieca/image-manipulation/Image\ Manipulator/AppDelegate.m -o /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/AppDelegate.o36"D5820E05-2571-4ECD-89F8-9CDCB72B3421-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CCompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/ViewController.o /Users/wisnieca/image-manipulation/Image\ Manipulator/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427846613.206575
+e427846613.308723
+r1
+xCompileC
+xDerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/ViewController.o
+x/Users/wisnieca/image-manipulation/Image Manipulator/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/wisnieca/image-manipulation/Image Manipulator/ViewController.m
+d/Users/wisnieca/image-manipulation/Image Manipulator/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/wisnieca/image-manipulation/Image Manipulator/ViewController.m272"CompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/ViewController.o Image\ Manipulator/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2a0135d56b80b941^0f094fd56b80b941^---0#0#1#-19%DVTDocumentLocation2@87"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/ViewController.m0000000000000000^4310"CompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/ViewController.o Image\ Manipulator/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisnieca/image-manipulation    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/wisnieca/image-manipulation/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-generated-files.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-own-target-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-all-target-headers.hmap -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-project-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources/i386 -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources -F/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator -include /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch -MMD -MT dependencies -MF /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/ViewController.dia -c /Users/wisnieca/image-manipulation/Image\ Manipulator/ViewController.m -o /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/ViewController.o36"22AC6CD2-EECF-425A-8685-A63B07E8CC44-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CCompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/main.o /Users/wisnieca/image-manipulation/Image\ Manipulator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427846613.206615
+e427846613.306489
+r1
+xCompileC
+xDerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/main.o
+x/Users/wisnieca/image-manipulation/Image Manipulator/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/wisnieca/image-manipulation/Image Manipulator/main.m
+d/Users/wisnieca/image-manipulation/Image Manipulator/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/wisnieca/image-manipulation/Image Manipulator/main.m252"CompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/main.o Image\ Manipulator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc10135d56b80b941^79754ed56b80b941^---0#0#1#-19%DVTDocumentLocation2@77"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/main.m0000000000000000^4250"CompileC DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/main.o Image\ Manipulator/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisnieca/image-manipulation    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/wisnieca/image-manipulation/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-generated-files.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-own-target-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-all-target-headers.hmap -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-project-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources/i386 -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources -F/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator -include /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch -MMD -MT dependencies -MF /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/main.dia -c /Users/wisnieca/image-manipulation/Image\ Manipulator/main.m -o /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/main.o36"AC1A62F1-BA61-45EF-B1EE-743290CF9E32-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CCompileStoryboard /Users/wisnieca/image-manipulation/Image\ Manipulator/Base.lproj/Main.storyboard
+s427846613.754741
+e427846614.039948
+r1
+xCompileStoryboard
+x/Users/wisnieca/image-manipulation/Image Manipulator/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"CompileStoryboard Image\ Manipulator/Base.lproj/Main.storyboard63"CompileStoryboard Image\ Manipulator/Base.lproj/Main.storyboardbe4bc1d56b80b941^07420ad66b80b941^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/Base.lproj/Main.storyboard0000000000000000^891"CompileStoryboard Image\ Manipulator/Base.lproj/Main.storyboard    cd /Users/wisnieca/image-manipulation    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Base.lproj/Main.storyboardc /Users/wisnieca/image-manipulation/Image\ Manipulator/Base.lproj/Main.storyboard36"FF492040-D67D-4802-98DD-148C6C272095-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CCopyStringsFile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/en.lproj/InfoPlist.strings Image\ Manipulator/en.lproj/InfoPlist.strings
+s427846613.754792
+e427846613.759379
+r1
+xCopyStringsFile
+x/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/en.lproj/InfoPlist.strings
+xImage Manipulator/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Copy Image Manipulator/en.lproj/InfoPlist.strings179"CopyStringsFile DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/en.lproj/InfoPlist.strings Image\ Manipulator/en.lproj/InfoPlist.strings4450c1d56b80b941^ed66c2d56b80b941^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/en.lproj/InfoPlist.strings0000000000000000^691"CopyStringsFile DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/en.lproj/InfoPlist.strings Image\ Manipulator/en.lproj/InfoPlist.strings    cd /Users/wisnieca/image-manipulation    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/en.lproj -- Image\ Manipulator/en.lproj/InfoPlist.strings36"333B2D76-5614-4970-B2C2-26B6FFE7AAF1-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CGenerateDSYMFile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app.dSYM /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator
+s427846614.947942
+e427846614.988568
+r1
+xGenerateDSYMFile
+x/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app.dSYM
+x/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Image Manipulator
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Generate /Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app.dSYM222"GenerateDSYMFile DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app.dSYM DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator5eb9f2d66b80b941^a513fdd66b80b941^---0#0#1#-19%DVTDocumentLocation2@148"file://localhost/Users/wisnieca/image-manipulation/DerivedData/Image%20Manipulator/Build/Products/Debug-iphonesimulator/Image%20Manipulator.app.dSYM0038503adeffdf42^839"GenerateDSYMFile DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app.dSYM DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator    cd /Users/wisnieca/image-manipulation    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator -o /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app.dSYM36"059C2EEA-A0E8-4D96-88C6-E3F08006F0AE-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CLd /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator normal i386
+s427846613.320731
+e427846613.746235
+r1
+xLd
+x/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Image Manipulator
+xnormal
+xi386
+d/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/Image Manipulator.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/crt1.o
+d/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/ViewController.o
+d/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/AppDelegate.o
+d/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/Image Manipulator.build/Debug-iphonesimulator/Image Manipulator.build/Objects-normal/i386/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libdnsinfo.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection146"Link /Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Image Manipulator124"Ld DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator normal i386062f52d56b80b941^0b0abfd56b80b941^---0#0#1#--1661"Ld DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator normal i386    cd /Users/wisnieca/image-manipulation    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator -F/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator -filelist /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/Image\ Manipulator.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.0 -framework CoreGraphics -framework UIKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Objects-normal/i386/Image\ Manipulator_dependency_info.dat -o /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Image\ Manipulator36"DE05E90B-2F3F-459F-916D-0589B2F21D7C-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CProcessInfoPlistFile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Info.plist /Users/wisnieca/image-manipulation/Image\ Manipulator/Image\ Manipulator-Info.plist
+s427846614.936554
+e427846614.939570
+r1
+xProcessInfoPlistFile
+x/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Products/Debug-iphonesimulator/Image Manipulator.app/Info.plist
+x/Users/wisnieca/image-manipulation/Image Manipulator/Image Manipulator-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Process /Users/wisnieca/image-manipulation/Image Manipulator/Image Manipulator-Info.plist171"ProcessInfoPlistFile DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Info.plist Image\ Manipulator/Image\ Manipulator-Info.pliste8daefd66b80b941^5188f0d66b80b941^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/Image%20Manipulator-Info.plist0000000000000000^1085"ProcessInfoPlistFile DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Info.plist Image\ Manipulator/Image\ Manipulator-Info.plist    cd /Users/wisnieca/image-manipulation    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/wisnieca/image-manipulation/Image\ Manipulator/Image\ Manipulator-Info.plist -genpkginfo /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/assetcatalog_generated_info.plist -o /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app/Info.plist36"06B641E2-55C4-4532-8B10-ECBADB0CCAB2-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CProcessPCH /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch.pch Image\ Manipulator/Image\ Manipulator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427846612.016716
+e427846613.197865
+r1
+xProcessPCH
+x/Users/wisnieca/image-manipulation/DerivedData/Image Manipulator/Build/Intermediates/PrecompiledHeaders/Image Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image Manipulator-Prefix.pch.pch
+xImage Manipulator/Image Manipulator-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/wisnieca/image-manipulation/Image Manipulator/Image Manipulator-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Precompile Image Manipulator/Image Manipulator-Prefix.pch286"ProcessPCH DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch.pch Image\ Manipulator/Image\ Manipulator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler408404d46b80b941^c2a632d56b80b941^---0#0#1#-19%DVTDocumentLocation2@101"file://localhost/Users/wisnieca/image-manipulation/Image%20Manipulator/Image%20Manipulator-Prefix.pch0000000000000000^4138"ProcessPCH DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch.pch Image\ Manipulator/Image\ Manipulator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/wisnieca/image-manipulation    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/wisnieca/image-manipulation/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.0 -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-generated-files.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-own-target-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-all-target-headers.hmap -iquote /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/Image\ Manipulator-project-headers.hmap -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources/i386 -I/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/Image\ Manipulator.build/Debug-iphonesimulator/Image\ Manipulator.build/DerivedSources -F/Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch.dia -MMD -MT dependencies -MF /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch.d -c /Users/wisnieca/image-manipulation/Image\ Manipulator/Image\ Manipulator-Prefix.pch -o /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Intermediates/PrecompiledHeaders/Image\ Manipulator-Prefix-fpivvpqjzpsffgdaadqoqqgjamch/Image\ Manipulator-Prefix.pch.pch36"8699C860-68BF-493A-93C7-8355DE454630-
+bCF225844-AE07-47BF-9890-3BEC14D399C9
+
+CProcessPCH /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Index/PrecompiledHeaders/Image\ Manipulator-Prefix-dropmsxywbqbstcxwabwmxeztyzr_ast/Image\ Manipulator-Prefix.pch.pch Image\ Manipulator/Image\ Manipulator-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/wisnieca/image-manipulation/DerivedData/Image\ Manipulator/Build/Products/Debug-iphonesimulator/Image\ Manipulator.app
+r0
+

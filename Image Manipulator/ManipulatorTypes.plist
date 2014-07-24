@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>Black &amp; White</string>
+	<string>Flip X</string>
+	<string>Flip Y</string>
+	<string>Pixelate</string>
+	<string>Negate</string>
+	<string>Negate Bands</string>
+	<string>Blur Box</string>
+</array>
+</plist>

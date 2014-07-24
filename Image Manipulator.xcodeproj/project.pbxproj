@@ -21,6 +21,8 @@
 		4CE80742197751F5000D2BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80724197751F5000D2BE0 /* UIKit.framework */; };
 		4CE8074A197751F5000D2BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80748197751F5000D2BE0 /* InfoPlist.strings */; };
 		4CE8074C197751F5000D2BE0 /* Image_ManipulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */; };
+		D158565E1980710B0009BF46 /* ManipulaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D158565D1980710B0009BF46 /* ManipulaterViewController.m */; };
+		D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1585661198076240009BF46 /* ManipulatorTypes.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		4CE80747197751F5000D2BE0 /* Image ManipulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image ManipulatorTests-Info.plist"; sourceTree = "<group>"; };
 		4CE80749197751F5000D2BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_ManipulatorTests.m; sourceTree = "<group>"; };
+		D158565C1980710B0009BF46 /* ManipulaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManipulaterViewController.h; sourceTree = "<group>"; };
+		D158565D1980710B0009BF46 /* ManipulaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManipulaterViewController.m; sourceTree = "<group>"; };
+		D1585661198076240009BF46 /* ManipulatorTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ManipulatorTypes.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +120,11 @@
 				4CE8072F197751F5000D2BE0 /* AppDelegate.h */,
 				4CE80730197751F5000D2BE0 /* AppDelegate.m */,
 				4CE80732197751F5000D2BE0 /* Main.storyboard */,
-				4CE80735197751F5000D2BE0 /* ViewController.h */,
+				D1585661198076240009BF46 /* ManipulatorTypes.plist */,
+				D158565C1980710B0009BF46 /* ManipulaterViewController.h */,
+				D158565D1980710B0009BF46 /* ManipulaterViewController.m */,
 				4CE80736197751F5000D2BE0 /* ViewController.m */,
+				4CE80735197751F5000D2BE0 /* ViewController.h */,
 				4CE80738197751F5000D2BE0 /* Images.xcassets */,
 				4CE80727197751F5000D2BE0 /* Supporting Files */,
 			);
@@ -229,6 +237,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE80739197751F5000D2BE0 /* Images.xcassets in Resources */,
+				D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */,
 				4CE8072B197751F5000D2BE0 /* InfoPlist.strings in Resources */,
 				4CE80734197751F5000D2BE0 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +261,7 @@
 				4CE80737197751F5000D2BE0 /* ViewController.m in Sources */,
 				4CE80731197751F5000D2BE0 /* AppDelegate.m in Sources */,
 				4CE8072D197751F5000D2BE0 /* main.m in Sources */,
+				D158565E1980710B0009BF46 /* ManipulaterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +470,7 @@
 				4CE80751197751F5000D2BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4CE80752197751F5000D2BE0 /* Build configuration list for PBXNativeTarget "Image ManipulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +479,7 @@
 				4CE80754197751F5000D2BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
