@@ -21,6 +21,7 @@
 		4CE80742197751F5000D2BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80724197751F5000D2BE0 /* UIKit.framework */; };
 		4CE8074A197751F5000D2BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80748197751F5000D2BE0 /* InfoPlist.strings */; };
 		4CE8074C197751F5000D2BE0 /* Image_ManipulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */; };
+		57A6BF521981A89A002AFD12 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A6BF511981A89A002AFD12 /* MobileCoreServices.framework */; };
 		D158565E1980710B0009BF46 /* ManipulaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D158565D1980710B0009BF46 /* ManipulaterViewController.m */; };
 		D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1585661198076240009BF46 /* ManipulatorTypes.plist */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		4CE80747197751F5000D2BE0 /* Image ManipulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image ManipulatorTests-Info.plist"; sourceTree = "<group>"; };
 		4CE80749197751F5000D2BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_ManipulatorTests.m; sourceTree = "<group>"; };
+		57A6BF511981A89A002AFD12 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		D158565C1980710B0009BF46 /* ManipulaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManipulaterViewController.h; sourceTree = "<group>"; };
 		D158565D1980710B0009BF46 /* ManipulaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManipulaterViewController.m; sourceTree = "<group>"; };
 		D1585661198076240009BF46 /* ManipulatorTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ManipulatorTypes.plist; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57A6BF521981A89A002AFD12 /* MobileCoreServices.framework in Frameworks */,
 				4CE80723197751F5000D2BE0 /* CoreGraphics.framework in Frameworks */,
 				4CE80725197751F5000D2BE0 /* UIKit.framework in Frameworks */,
 				4CE80721197751F5000D2BE0 /* Foundation.framework in Frameworks */,
@@ -106,6 +109,7 @@
 		4CE8071F197751F5000D2BE0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				57A6BF511981A89A002AFD12 /* MobileCoreServices.framework */,
 				4CE80720197751F5000D2BE0 /* Foundation.framework */,
 				4CE80722197751F5000D2BE0 /* CoreGraphics.framework */,
 				4CE80724197751F5000D2BE0 /* UIKit.framework */,

@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import "ManipulaterViewController.h"
 
+@interface ViewController : UIViewController
+- (IBAction)selectAPhoto:(id)sender;
 @end
