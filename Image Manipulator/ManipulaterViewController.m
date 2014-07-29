@@ -132,7 +132,7 @@
 
 -(void) manipulation
 {
-    UIImage* img = [imageView image];
+    UIImage* img = [originalImage image];
     CGImageRef inImage = img.CGImage;
     CFDataRef m_DataRef = CGDataProviderCopyData(CGImageGetDataProvider(inImage));
     UInt8 * m_PixelBuf = (UInt8 *) CFDataGetBytePtr(m_DataRef);
@@ -159,7 +159,7 @@
     CGImageRelease(imageRef);
     CFRelease(m_DataRef);
     
-    [originalImage setImage:finalImage];
+    [imageView setImage:finalImage];
 }
 
 - (void) filterGreyScale :(UInt8 *)pixelBuf :(int)offset
@@ -298,7 +298,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     
     if ([mediaType isEqualToString:(NSString *)kUTTypeImage]) {
         UIImage *image = info[UIImagePickerControllerOriginalImage];
-        imageView.image = image;
+        originalImage.image = image;
         hasPresentedPhotoOptions = true;
     }
 }
