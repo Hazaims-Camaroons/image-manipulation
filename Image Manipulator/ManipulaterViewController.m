@@ -15,7 +15,7 @@
 @end
 
 @implementation ManipulaterViewController
-@synthesize ImageManipulatorPicker, imageView;
+@synthesize ImageManipulatorPicker, imageView, originalImage;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -97,7 +97,7 @@
     else if ([selectedType isEqualToString:@"Flip Y"])
     {
         NSLog(@"Y");
-        for (int i=0; i < length / 2; i +=4){
+        for (int i=0; i < ceil(length*1.0 / 2); i +=4){
             [self filterFlipY:pixelBuf :length :i :width];
         }
     }
@@ -136,7 +136,6 @@
     
     [self getManipulationType:m_PixelBuf :length :width];
     
-    
     //Create Context
     CGContextRef ctx = CGBitmapContextCreate(m_PixelBuf,
                                              CGImageGetWidth(inImage),
@@ -153,7 +152,7 @@
     CGImageRelease(imageRef);
     CFRelease(m_DataRef);
     
-    [imageView setImage:finalImage];
+    [originalImage setImage:finalImage];
 }
 
 - (void) filterGreyScale :(UInt8 *)pixelBuf :(int)offset
@@ -176,7 +175,7 @@
 }
 
 -(void) filterFlipY :(UInt8 *)pixelBuf :(NSInteger)length :(NSInteger) offset :(NSInteger) width{
-    int row = ceil(offset * 1.0  / (width - 1));
+    int row = ceil(offset * 1.0  / (width));
     
     if (row == 0) {
         row = 1;

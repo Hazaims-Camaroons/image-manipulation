@@ -15,7 +15,7 @@
 @end
 
 @implementation ManipulaterViewController
-@synthesize ImageManipulatorPicker, imageView;
+@synthesize ImageManipulatorPicker, imageView, originalImage;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -97,7 +97,7 @@
     else if ([selectedType isEqualToString:@"Flip Y"])
     {
         NSLog(@"Y");
-        for (int i=0; i < length / 2; i +=4){
+        for (int i=0; i < ceil(length*1.0 / 2); i +=4){
             [self filterFlipY:pixelBuf :length :i :width];
         }
     }
@@ -125,7 +125,7 @@
 
 -(void) manipulation
 {
-    UIImage* img = [imageView image];
+    UIImage* img = [originalImage image];
     CGImageRef inImage = img.CGImage;
     CFDataRef m_DataRef = CGDataProviderCopyData(CGImageGetDataProvider(inImage));
     UInt8 * m_PixelBuf = (UInt8 *) CFDataGetBytePtr(m_DataRef);
@@ -135,7 +135,6 @@
     
     
     [self getManipulationType:m_PixelBuf :length :width];
-    
     
     //Create Context
     CGContextRef ctx = CGBitmapContextCreate(m_PixelBuf,
@@ -176,7 +175,7 @@
 }
 
 -(void) filterFlipY :(UInt8 *)pixelBuf :(NSInteger)length :(NSInteger) offset :(NSInteger) width{
-    int row = ceil(offset * 1.0  / (width - 1));
+    int row = ceil(offset * 1.0  / (width));
     
     if (row == 0) {
         row = 1;
@@ -260,30 +259,13 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     
     if ([mediaType isEqualToString:(NSString *)kUTTypeImage]) {
         UIImage *image = info[UIImagePickerControllerOriginalImage];
-        imageView.image = image;
+        originalImage.image = image;
         hasPresentedPhotoOptions = true;
     }
 }
 
-
--(void)image:(UIImage *)image
-finishedSavingWithError:(NSError *)error
- contextInfo:(void *)contextInfo
-{
-    if (error) {
-        UIAlertView *alert = [[UIAlertView alloc]
-                              initWithTitle: @"Save failed"
-                              message: @"Failed to save image"
-                              delegate: nil
-                              cancelButtonTitle:@"OK"
-                              otherButtonTitles:nil];
-        [alert show];
-    }
-}
-
-
 - (IBAction)Save:(UIBarButtonItem *)sender {
-    UIImage *image = imageView.image;
+    UIImage *image = originalImage.image;
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
     UIAlertView* savedAlert = [[UIAlertView alloc]initWithTitle:@"Your image has been saved." message:nil delegate:Nil cancelButtonTitle:@"Okay" otherButtonTitles:Nil, nil];
     [savedAlert show];

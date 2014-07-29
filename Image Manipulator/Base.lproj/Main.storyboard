@@ -65,6 +65,10 @@
                                     <outlet property="delegate" destination="AfT-Yg-nXa" id="Puf-SS-PW5"/>
                                 </connections>
                             </pickerView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EY9-xt-hIF">
+                                <rect key="frame" x="7" y="63" width="308" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -83,6 +87,7 @@
                     <connections>
                         <outlet property="ImageManipulatorPicker" destination="QF7-nS-cxP" id="C2N-oF-wnw"/>
                         <outlet property="imageView" destination="sKz-ww-vnG" id="bEg-hm-9mz"/>
+                        <outlet property="originalImage" destination="EY9-xt-hIF" id="r6W-We-Cba"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AhO-lp-FVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
