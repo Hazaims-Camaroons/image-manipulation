@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/adams2bn/Downloads/image-manipulation/Image\ Manipulator/ManipulaterViewController.m \
-  /Users/adams2bn/Downloads/image-manipulation/Image\ Manipulator/ManipulaterViewController.h
+  /Users/adams2bn/Desktop/image-manipulation/Image\ Manipulator/ManipulaterViewController.m \
+  /Users/adams2bn/Desktop/image-manipulation/Image\ Manipulator/ManipulaterViewController.h
