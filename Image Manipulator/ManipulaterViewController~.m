@@ -15,7 +15,11 @@
 @end
 
 @implementation ManipulaterViewController
+<<<<<<< HEAD
 @synthesize ImageManipulatorPicker, imageView, originalImage;
+=======
+@synthesize ImageManipulatorPicker, imageView;
+>>>>>>> master
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -97,7 +101,11 @@
     else if ([selectedType isEqualToString:@"Flip Y"])
     {
         NSLog(@"Y");
+<<<<<<< HEAD
         for (int i=0; i < ceil(length*1.0 / 2); i +=4){
+=======
+        for (int i=0; i < length / 2; i +=4){
+>>>>>>> master
             [self filterFlipY:pixelBuf :length :i :width];
         }
     }
@@ -107,11 +115,26 @@
     }
     else if ([selectedType isEqualToString:@"Negate"])
     {
+<<<<<<< HEAD
         
     }
     else if ([selectedType isEqualToString:@"Negate Bands"])
     {
         
+=======
+        NSLog(@"Negate");
+        for (int i=0; i < length; i+=4) {
+            [self filterNegate:pixelBuf :i];
+        }
+    }
+    else if ([selectedType isEqualToString:@"Negate Bands"])
+    {
+        NSLog(@"Negate Bands");
+        int bandwidth = (ceil)(width * 1.0 / 20);
+        for (int i=0; i < length; i+=4){
+            [self filterNegateBands:pixelBuf :bandwidth :i :width];
+        }
+>>>>>>> master
     }
     else if ([selectedType isEqualToString:@"Blur Box"])
     {
@@ -125,7 +148,11 @@
 
 -(void) manipulation
 {
+<<<<<<< HEAD
     UIImage* img = [originalImage image];
+=======
+    UIImage* img = [imageView image];
+>>>>>>> master
     CGImageRef inImage = img.CGImage;
     CFDataRef m_DataRef = CGDataProviderCopyData(CGImageGetDataProvider(inImage));
     UInt8 * m_PixelBuf = (UInt8 *) CFDataGetBytePtr(m_DataRef);
@@ -136,6 +163,10 @@
     
     [self getManipulationType:m_PixelBuf :length :width];
     
+<<<<<<< HEAD
+=======
+    
+>>>>>>> master
     //Create Context
     CGContextRef ctx = CGBitmapContextCreate(m_PixelBuf,
                                              CGImageGetWidth(inImage),
@@ -174,8 +205,28 @@
     
 }
 
+<<<<<<< HEAD
 -(void) filterFlipY :(UInt8 *)pixelBuf :(NSInteger)length :(NSInteger) offset :(NSInteger) width{
     int row = ceil(offset * 1.0  / (width));
+=======
+- (void)filterNegate :(UInt8*)pixelBuf :(int)offset
+{
+    int r = offset;
+    int g = offset + 1;
+    int b = offset + 2;
+    
+    int red = pixelBuf[r];
+    int green = pixelBuf[g];
+    int blue = pixelBuf[b];
+    
+    pixelBuf[r] = 255 - red;
+    pixelBuf[g] = 255 - green;
+    pixelBuf[b] = 255 - blue;
+}
+
+-(void) filterFlipY :(UInt8 *)pixelBuf :(NSInteger)length :(NSInteger) offset :(NSInteger) width{
+    int row = ceil(offset * 1.0  / (width - 1));
+>>>>>>> master
     
     if (row == 0) {
         row = 1;
@@ -217,6 +268,26 @@
     pixelBuf[(width*row) - 2 - (offset % width)] = temp3;
 }
 
+<<<<<<< HEAD
+=======
+-(void) filterNegateBands :(UInt8 *)pixelBuf :(NSInteger)bandwidth :(NSInteger)offset :(NSInteger)width{
+    int row = ceil(offset*1.0 / width) - 1;
+    
+    // we have 5 bands, so we need if statements to handle all possible cases
+    for (int i=1; i <= 20; i++){
+        if (offset <= (bandwidth*i)+(width*row) && i % 2 != 0){
+            pixelBuf[offset] = 255 - pixelBuf[offset];
+            pixelBuf[offset+1] = 255 - pixelBuf[offset+1];
+            pixelBuf[offset+2] = 255 - pixelBuf[offset+2];
+        }else {
+            if(offset <= (bandwidth*(i+1))+(width*row) && offset <= (bandwidth*i)+(width*row)) {
+                break;
+            }
+        }
+    }
+}
+
+>>>>>>> master
 
 - (BOOL) startMediaBrowserFromViewController: (UIViewController*) controller
                                usingDelegate: (id <UIImagePickerControllerDelegate,
@@ -259,11 +330,16 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     
     if ([mediaType isEqualToString:(NSString *)kUTTypeImage]) {
         UIImage *image = info[UIImagePickerControllerOriginalImage];
+<<<<<<< HEAD
         originalImage.image = image;
+=======
+        imageView.image = image;
+>>>>>>> master
         hasPresentedPhotoOptions = true;
     }
 }
 
+<<<<<<< HEAD
 - (IBAction)Save:(UIBarButtonItem *)sender {
     UIImage *image = originalImage.image;
     UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
@@ -271,4 +347,23 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     [savedAlert show];
 }
 
+=======
+
+-(void)image:(UIImage *)image
+finishedSavingWithError:(NSError *)error
+ contextInfo:(void *)contextInfo
+{
+    if (error) {
+        UIAlertView *alert = [[UIAlertView alloc]
+                              initWithTitle: @"Save failed"
+                              message: @"Failed to save image"
+                              delegate: nil
+                              cancelButtonTitle:@"OK"
+                              otherButtonTitles:nil];
+        [alert show];
+    }
+}
+
+
+>>>>>>> master
 @end
