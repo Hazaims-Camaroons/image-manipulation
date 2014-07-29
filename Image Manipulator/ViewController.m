@@ -25,6 +25,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(void)Cancel:(UIStoryboardSegue *)segue
+{
+    [self dismissViewControllerAnimated:true completion:nil];
+}
 
 @end

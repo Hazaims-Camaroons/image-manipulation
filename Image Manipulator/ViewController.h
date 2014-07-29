@@ -12,4 +12,5 @@
 
 @interface ViewController : UIViewController
 - (IBAction)selectAPhoto:(id)sender;
+-(IBAction)Cancel:(UIStoryboardSegue*)segue;
 @end

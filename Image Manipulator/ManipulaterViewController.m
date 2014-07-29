@@ -265,21 +265,11 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
     }
 }
 
-
--(void)image:(UIImage *)image
-finishedSavingWithError:(NSError *)error
- contextInfo:(void *)contextInfo
-{
-    if (error) {
-        UIAlertView *alert = [[UIAlertView alloc]
-                              initWithTitle: @"Save failed"
-                              message: @"Failed to save image"
-                              delegate: nil
-                              cancelButtonTitle:@"OK"
-                              otherButtonTitles:nil];
-        [alert show];
-    }
+- (IBAction)Save:(UIBarButtonItem *)sender {
+    UIImage *image = imageView.image;
+    UIImageWriteToSavedPhotosAlbum(image, nil, nil, nil);
+    UIAlertView* savedAlert = [[UIAlertView alloc]initWithTitle:@"Your image has been saved." message:nil delegate:Nil cancelButtonTitle:@"Okay" otherButtonTitles:Nil, nil];
+    [savedAlert show];
 }
-
 
 @end

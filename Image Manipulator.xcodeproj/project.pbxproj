@@ -15,13 +15,14 @@
 		4CE80731197751F5000D2BE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE80730197751F5000D2BE0 /* AppDelegate.m */; };
 		4CE80734197751F5000D2BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80732197751F5000D2BE0 /* Main.storyboard */; };
 		4CE80737197751F5000D2BE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE80736197751F5000D2BE0 /* ViewController.m */; };
-		4CE80739197751F5000D2BE0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80738197751F5000D2BE0 /* Images.xcassets */; };
 		4CE80740197751F5000D2BE0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE8073F197751F5000D2BE0 /* XCTest.framework */; };
 		4CE80741197751F5000D2BE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80720197751F5000D2BE0 /* Foundation.framework */; };
 		4CE80742197751F5000D2BE0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE80724197751F5000D2BE0 /* UIKit.framework */; };
 		4CE8074A197751F5000D2BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80748197751F5000D2BE0 /* InfoPlist.strings */; };
 		4CE8074C197751F5000D2BE0 /* Image_ManipulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */; };
 		57A6BF521981A89A002AFD12 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A6BF511981A89A002AFD12 /* MobileCoreServices.framework */; };
+		D116AAEF19882A050042ABDC /* hazemSaid.png in Resources */ = {isa = PBXBuildFile; fileRef = D116AAEE19882A050042ABDC /* hazemSaid.png */; };
+		D116AAF319882D240042ABDC /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D116AAF219882D240042ABDC /* Images-2.xcassets */; };
 		D158565E1980710B0009BF46 /* ManipulaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D158565D1980710B0009BF46 /* ManipulaterViewController.m */; };
 		D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1585661198076240009BF46 /* ManipulatorTypes.plist */; };
 /* End PBXBuildFile section */
@@ -50,13 +51,14 @@
 		4CE80733197751F5000D2BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CE80735197751F5000D2BE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4CE80736197751F5000D2BE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4CE80738197751F5000D2BE0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4CE8073E197751F5000D2BE0 /* Image ManipulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image ManipulatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE8073F197751F5000D2BE0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		4CE80747197751F5000D2BE0 /* Image ManipulatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Image ManipulatorTests-Info.plist"; sourceTree = "<group>"; };
 		4CE80749197751F5000D2BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_ManipulatorTests.m; sourceTree = "<group>"; };
 		57A6BF511981A89A002AFD12 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		D116AAEE19882A050042ABDC /* hazemSaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hazemSaid.png; sourceTree = "<group>"; };
+		D116AAF219882D240042ABDC /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		D158565C1980710B0009BF46 /* ManipulaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManipulaterViewController.h; sourceTree = "<group>"; };
 		D158565D1980710B0009BF46 /* ManipulaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManipulaterViewController.m; sourceTree = "<group>"; };
 		D1585661198076240009BF46 /* ManipulatorTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ManipulatorTypes.plist; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		4CE80726197751F5000D2BE0 /* Image Manipulator */ = {
 			isa = PBXGroup;
 			children = (
+				D116AAEE19882A050042ABDC /* hazemSaid.png */,
 				4CE8072F197751F5000D2BE0 /* AppDelegate.h */,
 				4CE80730197751F5000D2BE0 /* AppDelegate.m */,
 				4CE80732197751F5000D2BE0 /* Main.storyboard */,
@@ -129,7 +132,7 @@
 				D158565D1980710B0009BF46 /* ManipulaterViewController.m */,
 				4CE80736197751F5000D2BE0 /* ViewController.m */,
 				4CE80735197751F5000D2BE0 /* ViewController.h */,
-				4CE80738197751F5000D2BE0 /* Images.xcassets */,
+				D116AAF219882D240042ABDC /* Images-2.xcassets */,
 				4CE80727197751F5000D2BE0 /* Supporting Files */,
 			);
 			path = "Image Manipulator";
@@ -240,8 +243,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CE80739197751F5000D2BE0 /* Images.xcassets in Resources */,
+				D116AAF319882D240042ABDC /* Images-2.xcassets in Resources */,
 				D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */,
+				D116AAEF19882A050042ABDC /* hazemSaid.png in Resources */,
 				4CE8072B197751F5000D2BE0 /* InfoPlist.strings in Resources */,
 				4CE80734197751F5000D2BE0 /* Main.storyboard in Resources */,
 			);
@@ -390,7 +394,6 @@
 		4CE80750197751F5000D2BE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Manipulator/Image Manipulator-Prefix.pch";
@@ -403,7 +406,6 @@
 		4CE80751197751F5000D2BE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Image Manipulator/Image Manipulator-Prefix.pch";
