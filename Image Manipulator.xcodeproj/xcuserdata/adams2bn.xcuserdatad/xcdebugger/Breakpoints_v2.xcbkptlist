@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Image Manipulator/ManipulaterViewController.m"
-            timestampString = "428354962.379256"
+            timestampString = "428455551.659496"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
             landmarkName = "-getManipulationType:::"
             landmarkType = "5">
             <Locations>
@@ -57,11 +57,11 @@
             condition = "row &gt; 0"
             continueAfterRunningActions = "No"
             filePath = "Image Manipulator/ManipulaterViewController.m"
-            timestampString = "428356846.596919"
+            timestampString = "428456400.206261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "248"
-            endingLineNumber = "248"
+            startingLineNumber = "290"
+            endingLineNumber = "290"
             landmarkName = "-filterNegateBands::::"
             landmarkType = "5">
          </BreakpointContent>
