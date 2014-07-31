@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvn-4q-mLu">
-                                <rect key="frame" x="92" y="519" width="137" height="22"/>
+                                <rect key="frame" x="92" y="496" width="137" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <state key="normal" title="Select a Photo"/>
@@ -25,10 +25,11 @@
                                     <segue destination="HjS-wb-9w6" kind="modal" identifier="ManipViewSegue" id="C8J-39-W2u"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="This app takes an image and manipulates it in six different ways." translatesAutoresizingMaskIntoConstraints="NO" id="1ux-ee-UHO">
-                                <rect key="frame" x="40" y="125" width="240" height="128"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ux-ee-UHO">
+                                <rect key="frame" x="40" y="92" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">For this app you will select an image from your photo library and modify it in various ways. You can also save the newly modified image to your photo library for access later.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -39,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="367" y="107"/>
+            <point key="canvasLocation" x="369" y="107"/>
         </scene>
         <!--Manipulater View Controller-->
         <scene sceneID="zMh-0r-knT">

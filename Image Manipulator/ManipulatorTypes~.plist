@@ -3,10 +3,12 @@
 <plist version="1.0">
 <array>
 	<string>Normal</string>
-	<string>Grey Scale</string>
+	<string>Black &amp; White</string>
 	<string>Flip X</string>
 	<string>Flip Y</string>
+	<string>Pixelate</string>
 	<string>Negate</string>
 	<string>Negate Bands</string>
+	<string>Blur Box</string>
 </array>
 </plist>
