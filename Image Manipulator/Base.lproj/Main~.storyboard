@@ -32,6 +32,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pia-P7-al9">
+                                <rect key="frame" x="123" y="391" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PvJ-TG-cQz" kind="push" id="ZOP-Aw-y7O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -40,6 +50,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="367" y="107"/>
+        </scene>
+        <!--Image Picker View Controller-->
+        <scene sceneID="23D-Ys-Zj8">
+            <objects>
+                <viewController id="PvJ-TG-cQz" customClass="ImagePickerViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LOx-2x-Fjy"/>
+                        <viewControllerLayoutGuide type="bottom" id="5jo-Yl-Ayz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Rf-Rm-ffw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6Lj-2M-Rz6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3QT-E6-sk5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="595"/>
         </scene>
         <!--Manipulater View Controller-->
         <scene sceneID="zMh-0r-knT">
@@ -53,8 +82,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EY9-xt-hIF">
+                                <rect key="frame" x="6" y="72" width="308" height="283"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sKz-ww-vnG">
-                                <rect key="frame" x="6" y="69" width="308" height="283"/>
+                                <rect key="frame" x="6" y="72" width="308" height="283"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
                             <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QF7-nS-cxP">
@@ -65,10 +98,6 @@
                                     <outlet property="delegate" destination="AfT-Yg-nXa" id="Puf-SS-PW5"/>
                                 </connections>
                             </pickerView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EY9-xt-hIF">
-                                <rect key="frame" x="7" y="69" width="308" height="283"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -93,7 +122,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AhO-lp-FVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="PBr-we-bd0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1425" y="-199"/>
+            <point key="canvasLocation" x="1445" y="-199"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="R3G-gf-e31">
