@@ -54,6 +54,17 @@
     }
 }
 
+-(void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
+{
+    [picker dismissViewControllerAnimated:true completion:nil];
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    hasPresentedPhotoOptions = true;
+    //ManipulaterViewController* cont = [[ManipulaterViewController alloc]init];
+    UIViewController *rootViewController = window.rootViewController;
+    [self presentViewController:rootViewController animated:true completion:nil];
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -79,7 +90,7 @@
 {
     NSInteger selectedIndexType = [ImageManipulatorPicker selectedRowInComponent:0];
     NSString* selectedType = [types objectAtIndex:selectedIndexType];
-    if ([selectedType isEqualToString:@"Black & White"])
+    if ([selectedType isEqualToString:@"Grey Scale"])
     {
         NSLog(@"Grey");
         for (int i=0;i < length; i+=4){
@@ -101,10 +112,6 @@
             [self filterFlipY:pixelBuf :length :i :width];
         }
     }
-    else if ([selectedType isEqualToString:@"Pixelate"])
-    {
-        
-    }
     else if ([selectedType isEqualToString:@"Negate"])
     {
         NSLog(@"Negate");
@@ -119,10 +126,6 @@
         for (int i=0; i < length; i+=4){
             [self filterNegateBands:pixelBuf :bandwidth :i :width];
         }
-    }
-    else if ([selectedType isEqualToString:@"Blur Box"])
-    {
-                  
     }
 }
 
@@ -300,7 +303,7 @@ didFinishPickingMediaWithInfo:(NSDictionary *)info
         UIImage *image = info[UIImagePickerControllerOriginalImage];
         originalImage.image = image;
         hasPresentedPhotoOptions = true;
-    }
+    } 
 }
 
 - (IBAction)Save:(UIBarButtonItem *)sender {
