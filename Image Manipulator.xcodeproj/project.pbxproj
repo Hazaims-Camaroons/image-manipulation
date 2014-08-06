@@ -21,7 +21,7 @@
 		4CE8074A197751F5000D2BE0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE80748197751F5000D2BE0 /* InfoPlist.strings */; };
 		4CE8074C197751F5000D2BE0 /* Image_ManipulatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */; };
 		57A6BF521981A89A002AFD12 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57A6BF511981A89A002AFD12 /* MobileCoreServices.framework */; };
-		D116AAEF19882A050042ABDC /* hazemSaid.png in Resources */ = {isa = PBXBuildFile; fileRef = D116AAEE19882A050042ABDC /* hazemSaid.png */; };
+		57BDA63C1989C66A004A1ACB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57BDA63B1989C66A004A1ACB /* icon.png */; };
 		D116AAF319882D240042ABDC /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D116AAF219882D240042ABDC /* Images-2.xcassets */; };
 		D158565E1980710B0009BF46 /* ManipulaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D158565D1980710B0009BF46 /* ManipulaterViewController.m */; };
 		D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1585661198076240009BF46 /* ManipulatorTypes.plist */; };
@@ -57,7 +57,7 @@
 		4CE80749197751F5000D2BE0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4CE8074B197751F5000D2BE0 /* Image_ManipulatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Image_ManipulatorTests.m; sourceTree = "<group>"; };
 		57A6BF511981A89A002AFD12 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		D116AAEE19882A050042ABDC /* hazemSaid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hazemSaid.png; sourceTree = "<group>"; };
+		57BDA63B1989C66A004A1ACB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		D116AAF219882D240042ABDC /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 		D158565C1980710B0009BF46 /* ManipulaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManipulaterViewController.h; sourceTree = "<group>"; };
 		D158565D1980710B0009BF46 /* ManipulaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManipulaterViewController.m; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 		4CE80726197751F5000D2BE0 /* Image Manipulator */ = {
 			isa = PBXGroup;
 			children = (
-				D116AAEE19882A050042ABDC /* hazemSaid.png */,
+				57BDA63B1989C66A004A1ACB /* icon.png */,
 				4CE8072F197751F5000D2BE0 /* AppDelegate.h */,
 				4CE80730197751F5000D2BE0 /* AppDelegate.m */,
 				4CE80732197751F5000D2BE0 /* Main.storyboard */,
@@ -244,8 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D116AAF319882D240042ABDC /* Images-2.xcassets in Resources */,
+				57BDA63C1989C66A004A1ACB /* icon.png in Resources */,
 				D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */,
-				D116AAEF19882A050042ABDC /* hazemSaid.png in Resources */,
 				4CE8072B197751F5000D2BE0 /* InfoPlist.strings in Resources */,
 				4CE80734197751F5000D2BE0 /* Main.storyboard in Resources */,
 			);
