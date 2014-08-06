@@ -13,7 +13,9 @@
     NSArray* types;
 }
 @property (weak, nonatomic) IBOutlet UIPickerView *ImageManipulatorPicker;
-@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 @property (strong, nonatomic) IBOutlet UIImageView *originalImage;
+- (IBAction)numberBands;
+@property (weak, nonatomic) IBOutlet UITextField *numBands;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
 - (IBAction)Save:(UIBarButtonItem *)sender;
 @end

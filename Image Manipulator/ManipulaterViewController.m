@@ -17,6 +17,7 @@
 
 @implementation ManipulaterViewController
 @synthesize ImageManipulatorPicker, imageView, originalImage;
+int NUMBER_BANDS = 10;
 
 - (void)viewDidLoad
 {
@@ -30,6 +31,8 @@
 
     types=[NSArray arrayWithContentsOfFile:filePath];
 }
+
+
 - (void)viewDidAppear:(BOOL)animated{
     
     // check if the user has already been presented with photo options
@@ -126,8 +129,8 @@
         // negate bands
         NSLog(@"Negate Bands");
         
-        // split the image into 20 bands
-        int bandwidth = (ceil)(width * 1.0 / 20);
+        // split the image into NUMBER_BANDS bands
+        int bandwidth = (ceil)(width * 1.0 / NUMBER_BANDS);
         for (int i=0; i < length; i+=4){
             [self filterNegateBands:pixelBuf :bandwidth :i :width];
         }
@@ -290,7 +293,7 @@
     int row = ceil(offset*1.0 / width) - 1;
     
     // we have 5 bands, so we need if statements to handle all possible cases
-    for (int i=1; i <= 20; i++){
+    for (int i=1; i <= NUMBER_BANDS; i++){
         // make sure the offset is in a negative band range
         // make sure that i mod 2 isn't 0, as that means it's an even band, so non-negative
         if (offset <= (bandwidth*i)+(width*row) && i % 2 != 0){

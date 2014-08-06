@@ -25,6 +25,12 @@
 		D116AAF319882D240042ABDC /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D116AAF219882D240042ABDC /* Images-2.xcassets */; };
 		D158565E1980710B0009BF46 /* ManipulaterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D158565D1980710B0009BF46 /* ManipulaterViewController.m */; };
 		D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */ = {isa = PBXBuildFile; fileRef = D1585661198076240009BF46 /* ManipulatorTypes.plist */; };
+		D18EF3681992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.33 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D18EF3621992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.33 PM.png */; };
+		D18EF3691992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.49 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D18EF3631992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.49 PM.png */; };
+		D18EF36A1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.14 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D18EF3641992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.14 PM.png */; };
+		D18EF36B1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.30 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D18EF3651992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.30 PM.png */; };
+		D18EF36C1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.47 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D18EF3661992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.47 PM.png */; };
+		D18EF36D1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.28.51 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = D18EF3671992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.28.51 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +68,12 @@
 		D158565C1980710B0009BF46 /* ManipulaterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManipulaterViewController.h; sourceTree = "<group>"; };
 		D158565D1980710B0009BF46 /* ManipulaterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManipulaterViewController.m; sourceTree = "<group>"; };
 		D1585661198076240009BF46 /* ManipulatorTypes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ManipulatorTypes.plist; sourceTree = "<group>"; };
+		D18EF3621992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.33 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-06 at 2.22.33 PM.png"; sourceTree = "<group>"; };
+		D18EF3631992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.49 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-06 at 2.22.49 PM.png"; sourceTree = "<group>"; };
+		D18EF3641992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.14 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-06 at 2.23.14 PM.png"; sourceTree = "<group>"; };
+		D18EF3651992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.30 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-06 at 2.23.30 PM.png"; sourceTree = "<group>"; };
+		D18EF3661992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.47 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-06 at 2.23.47 PM.png"; sourceTree = "<group>"; };
+		D18EF3671992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.28.51 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2014-08-06 at 2.28.51 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +135,7 @@
 		4CE80726197751F5000D2BE0 /* Image Manipulator */ = {
 			isa = PBXGroup;
 			children = (
+				D18EF36E1992AC0600E2E9C7 /* HomePageImages */,
 				57BDA63B1989C66A004A1ACB /* icon.png */,
 				4CE8072F197751F5000D2BE0 /* AppDelegate.h */,
 				4CE80730197751F5000D2BE0 /* AppDelegate.m */,
@@ -165,6 +178,19 @@
 				4CE80748197751F5000D2BE0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D18EF36E1992AC0600E2E9C7 /* HomePageImages */ = {
+			isa = PBXGroup;
+			children = (
+				D18EF3621992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.33 PM.png */,
+				D18EF3631992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.49 PM.png */,
+				D18EF3641992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.14 PM.png */,
+				D18EF3651992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.30 PM.png */,
+				D18EF3661992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.47 PM.png */,
+				D18EF3671992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.28.51 PM.png */,
+			);
+			name = HomePageImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +269,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18EF36D1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.28.51 PM.png in Resources */,
+				D18EF36B1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.30 PM.png in Resources */,
 				D116AAF319882D240042ABDC /* Images-2.xcassets in Resources */,
+				D18EF3691992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.49 PM.png in Resources */,
 				57BDA63C1989C66A004A1ACB /* icon.png in Resources */,
 				D1585662198076240009BF46 /* ManipulatorTypes.plist in Resources */,
+				D18EF36C1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.47 PM.png in Resources */,
 				4CE8072B197751F5000D2BE0 /* InfoPlist.strings in Resources */,
+				D18EF3681992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.22.33 PM.png in Resources */,
+				D18EF36A1992ABA600E2E9C7 /* Screen Shot 2014-08-06 at 2.23.14 PM.png in Resources */,
 				4CE80734197751F5000D2BE0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
